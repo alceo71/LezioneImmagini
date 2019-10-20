@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">LezioneImmagini</string>
+
+    <string name="marte">marte</string>
+    <string name="sole">Sole</string>
+    <string name="saturno">Saturno</string>
+    <string name="urano">Urano</string>
+    <string name="per_xml">per xml</string>
+
+    <string name="titolo_bitmap">Immagini bitmap</string>
+    <string name="titolo_XML_nine_shape">Immagini xml, shape, nine</string>
+    <string name="titolo_altre_immagini">Altre immagini</string>
+    <string name="layers">layers</string>
+    <string name="list">list</string>
+    <string name="rosso">rosso</string>
+    <string name="giallo">giallo</string>
+    <string name="verde">verde</string>
+    <string name="transizione">transizione</string>
+    <string name="spegni">spegni</string>
+    <string name="accendi">accendi</string>
+    <string name="esempio">esempio</string>
+
+</resources>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:showDividers="middle"
+    android:divider="@drawable/mio_divider"
+    tools:context=".AltreImmaginiActivity">
+
+    <ImageView
+        android:contentDescription="@string/layers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/layer_immagine"
+        android:layout_gravity="center"
+        />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/immagineLivello"
+            android:contentDescription="@string/list"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:src="@drawable/sem_level_list"
+            android:layout_gravity="center"
+            />
+
+        <Button
+            android:id="@+id/bottone_rosso"
+            android:text="@string/rosso"
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/bottone_giallo"
+            android:text="@string/giallo"
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/bottone_verde"
+            android:text="@string/verde"
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        <ImageView
+            android:id="@+id/immagineTransizione"
+            android:contentDescription="@string/transizione"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/lampadina_transizione"
+            />
+        <Button
+        android:id="@+id/bottone_transizione_spegni"
+        android:text="@string/spegni"
+        android:layout_gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/bottone_transizione_accendi"
+            android:text="@string/accendi"
+            android:enabled="false"
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:src="@drawable/frame_uno"
+            android:contentDescription="@string/esempio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <ImageView
+            android:src="@drawable/frame_inset"
+            android:contentDescription="@string/esempio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            />
+        <ImageView
+            android:id="@+id/frame_scale"
+            android:src="@drawable/frame_scale"
+            android:contentDescription="@string/esempio"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            />
+
+        <ImageView
+            android:id="@+id/frame_clip"
+            android:src="@drawable/frame_clip"
+            android:contentDescription="@string/esempio"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
