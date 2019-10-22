@@ -48,7 +48,11 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="28dp"
         android:contentDescription="@string/marte"
+        android:visibility="visible"
         android:src="@drawable/marte_tag" />
+
+
+
 
 
 </LinearLayout>
